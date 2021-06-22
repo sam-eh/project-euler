@@ -1,0 +1,15 @@
+{
+  "name": "euler-js",
+  "version": "1.0.0",
+  "description": "created to organize solutions to problems posted at projecteuler.net",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "run": "node index.js"
+  },
+  "author": "sam may",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^8.4.0"
+  }
+}
