@@ -10,6 +10,15 @@ describe('isPrime', function() {
     })
 });
 
+describe('nextPrime', function() {
+    it('should find correct next prime numbers', function() {
+        assert.strictEqual(solution.nextPrime(1), 2);
+        assert.strictEqual(solution.nextPrime(2), 3);
+        assert.strictEqual(solution.nextPrime(3), 5);
+        assert.strictEqual(solution.nextPrime(500009), 500029);
+    })
+});
+
 describe('isFactor', function() {
     it('should return true that 29 is a factor of 13195', function() {
         assert.ok(solution.isFactor(29, 13195));
